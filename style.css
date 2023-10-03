@@ -525,17 +525,15 @@ span {
   height: 385px;
 }
 
-.newscard:hover > .newscard1 {
+.newscard:hover > .newscard1{
   transform: scale(1.2);
   transition: 1000ms;
-}
-.newscard {
-  height: 150px;
-  width: 210px; 
+} 
+.newscard{
   overflow: hidden;
   position: relative;
 }
-.posab {
+.posab{
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   display: flex;
@@ -545,10 +543,10 @@ span {
   top: 0;
   left: 0;
   opacity: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
-.newscard:hover > .posab {
+.newscard:hover > .posab{
   opacity: 1;
 }
 .newscard2:hover > .newscard3 {
