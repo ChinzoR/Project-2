@@ -282,6 +282,15 @@ span {
 .item2 {
   grid-area: menu;
   background-image: url(./grid/311161-26092023-1695722699-1744578070-gutal.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: end;
+  text-align: start;
+  box-sizing: border-box;
+}
+.item2 span{
+  width: 100px;
 }
 .item3 {
   grid-area: main;
