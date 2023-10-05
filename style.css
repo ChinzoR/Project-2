@@ -10,6 +10,19 @@ body {
   font-size: small;
 
 }
+.height{
+  height: 16px;
+  width: 20px;
+}
+.hhewd{
+  height: 17px;
+  width: 17px;
+}
+.doll{
+  height: 21px;
+  width: 10px;
+  color: greenyellow;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -86,6 +99,30 @@ body {
   background: linear-gradient(-120deg, orange, red);
   color: white;
 }
+.Gogo-logo{
+  height: 30px;
+  width: 30px;
+}
+.story-pac{
+  height: 258px;
+  width: 170.797px;
+  background-image: url(./pht/131242971-capsule2-6510d9eb106ed379124270.jpg);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px;
+  margin-top: 15px;
+}
+.ddd{
+  overflow: hidden;
+}
+.story-pac:hover{
+  transform: scale(1.2);
+  transition: 1000ms;
+  border-radius: 4px;
+}
 .img-1 {
   height: 283px;
   width: 278px;
@@ -131,11 +168,6 @@ span {
   width: 1171px;
   gap: 15px;
   overflow: scroll;
-}
-.story img {
-  height: 258px;
-  width: 182.5px;
-  border-radius: 4px;
 }
 .gogostory {
   margin-top: 100px;
@@ -628,4 +660,8 @@ span {
   align-items: center;
   border: none;
   background-color: bisque;
+}
+@media only screen and (max-width:960px) {
+  
+
 }
